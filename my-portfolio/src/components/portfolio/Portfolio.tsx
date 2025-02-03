@@ -40,7 +40,7 @@ function Portfolio() {
     ];
 
     const projects = [
-        { img: 'assets/img//projects/aces-of-safety.png', title: 'Aces of Safety Website', link: 'https://acesofsafety.adminelwise.com/#/' },
+        { img: 'assets/img//projects/aces-of-safety.png', title: 'Aces of Safety', link: 'https://acesofsafety.adminelwise.com/#/' },
         { img: 'assets/img/projects/elwise.png', title: 'EL Wise Web App', link: 'https://adminelwise.com/#/home' }
         
     ];
@@ -115,7 +115,7 @@ function Portfolio() {
                             <div className="grid justify-content-center align-items-center">
                                 { logos.map((item, index) => (
                                     <div className="col-1" key={index}>
-                                        <img src={ item.img } className="tech__logos" alt="" loading="lazy" />
+                                        <img draggable="false" src={ item.img } className="tech__logos" alt="" loading="lazy" />
                                     </div>
                                 ))}
                             </div>
